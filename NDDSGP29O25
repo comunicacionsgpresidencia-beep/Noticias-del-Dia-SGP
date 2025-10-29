@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>📘 Noticias del Día – SGP</title>
+<style>
+  :root{
+    --gris:#666666;
+    --texto: #111111;
+    --maxw: 980px;
+  }
+  html,body{margin:0;padding:0;background:#fff;color:var(--texto);font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; line-height:1.5}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:1.25rem}
+  header{display:flex;gap:.75rem;align-items:center;margin: .25rem 0 1rem 0}
+  header .logo{font-size:2.25rem;line-height:1}
+  h1{font-size:2.4rem;margin:.25rem 0 .25rem 0}
+  .intro{margin:.25rem 0 1.25rem 0;font-size:1.05rem}
+  h2{font-size:1.9rem;margin:1.75rem 0 1rem 0}
+  h3{font-size:1.6rem;margin:.25rem 0 .25rem 0}
+  p, .texto{font-size:1.3rem;margin:.25rem 0 .75rem 0}
+  .medio{font-size:1.2rem;color:var(--gris);font-style:italic;margin:.15rem 0 .65rem 0}
+  /* Tarjetas de noticia con alternancia */
+  .nota{display:flex;gap:1rem;align-items:flex-start;margin:1.1rem 0; padding:1rem .75rem; border:1px solid #eee; border-radius:.75rem}
+  .emoji{font-size:5rem;flex:0 0 25%;text-align:center;line-height:1}
+  .cuerpo{flex:0 0 75%}
+  .left{flex-direction:row}
+  .right{flex-direction:row-reverse}
+  /* Márgenes laterales sutiles para legibilidad */
+  .banda{padding:0 .35rem}
+  /* Responsivo: mantener esquema 25/75 también en móvil */
+  @media (max-width:640px){
+    .emoji{flex-basis:25%}
+    .cuerpo{flex-basis:75%}
+  }
+  /* Separadores suaves entre bloques temáticos */
+  .seccion{border-top:3px solid #f3f3f3; padding-top:1rem}
+  /* Etiquetas pequeñas auxiliares (no obligatorias) */
+  .pill{display:inline-block; font-size:.9rem; padding:.1rem .5rem; border:1px solid #e8e8e8; border-radius:999px; color:#555; margin-bottom:.25rem}
+</style>
+</head>
+<body>
+  <div class="wrap banda">
+    <header>
+      <div class="logo">📘</div>
+      <div>
+        <h1>Noticias del Día – SGP</h1>
+        <div class="intro">Desliza hacia abajo para conocer los hechos más relevantes.</div>
+        <div class="pill">Miércoles, 29 de octubre de 2025</div>
+      </div>
+    </header>
+
+    <!-- 1. COYUNTURA -->
+    <section class="seccion" id="coyuntura">
+      <h2>Coyuntura</h2>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🚤</div>
+        <div class="cuerpo">
+          <h3><strong>Ataques en el Pacífico dejan 14 fallecidos</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario, Prensa Libre, Diario de Centro de América y Soy502</div>
+          <div class="texto">Fuerzas estadounidenses mataron a 14 personas en ataques contra cuatro presuntas narcolanchas en el océano Pacífico, informó el secretario de Defensa, Pete Hegseth, lo que eleva a al menos 57 los muertos en la campaña antinarcóticos de Washington en alta mar. (ND12, PL20, DCA14, S502-10)  [oai_citation:0‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🌀</div>
+        <div class="cuerpo">
+          <h3><strong>Huracán Melissa impacta Jamaica categoría cinco</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario, Prensa Libre y Diario de Centro de América</div>
+          <div class="texto">Se informó que el huracán Melissa, catalogado como la "tormenta del siglo" en la isla caribeña, tocó tierra con categoría 5, vientos sostenidos de 295 km/h y lluvias torrenciales, convirtiéndose en la tormenta más poderosa registrada en ese país, según el Centro Nacional de Huracanes de EE. UU. (ND12, PL20, DCA14)  [oai_citation:1‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">⚖️</div>
+        <div class="cuerpo">
+          <h3><strong>FECI logra cautelares contra convenio de UNOPS</strong></h3>
+          <div class="medio">Publicado por Prensa Libre, Diario de Centro de América y Soy502</div>
+          <div class="texto">El jefe de la FECI, Rafael Curruchiche, pidió medidas cautelares para detener los pagos del MSPAS al convenio con la UNOPS y embargar el 35 por ciento del salario del ministro Joaquín Barnoya, y el juez Guillermo Luna aceptó la solicitud. La FECI argumentó que hubo irregularidades en el acuerdo de compra de medicamentos y equipo médico por hasta US$912 millones para la red pública de salud. (PL6, DCA5, S502-2)  [oai_citation:2‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🏛️</div>
+        <div class="cuerpo">
+          <h3><strong>PARLACEN ratifica a Karla Gutiérrez presidenta</strong></h3>
+          <div class="medio">Publicado por Prensa Libre y Diario de Centro de América</div>
+          <div class="texto">El PARLACEN ratificó a Karla Gutiérrez como su nueva presidenta, ejerciendo su carácter supranacional al desestimar resoluciones judiciales que buscaban impedir su toma de posesión. Gutiérrez, electa por la UNE en 2023, asumió el cargo en representación de la bancada guatemalteca, pese a las objeciones presentadas por su propio partido. (PL6, DCA6)  [oai_citation:3‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🗳️</div>
+        <div class="cuerpo">
+          <h3><strong>Congreso suspende sesión por directiva disuelta</strong></h3>
+          <div class="medio">Publicado por Prensa Libre y Soy502</div>
+          <div class="texto">Se indicó que el Congreso suspendió la sesión plenaria, luego de desintegrarse la directiva y en medio de rumores crecientes de la intención de la oposición de someter a votación una única planilla para dirigir el Legislativo el próximo año. (PL6, S502-3)  [oai_citation:4‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🌐</div>
+        <div class="cuerpo">
+          <h3><strong>Guatemala irá a sesión extraordinaria en la OEA</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América y Soy502</div>
+          <div class="texto">El canciller Carlos Ramiro Martínez confirmó que participará en la sesión extraordinaria del Consejo Permanente de la OEA, acompañado por la misión guatemalteca, convocada a solicitud del presidente Arévalo para exponer las amenazas a la Constitución y la democracia atribuidas al MP y al juez Fredy Orellana. La sesión se celebrará el próximo jueves 30 de octubre a las 8 horas locales, en el salón Simón Bolívar, ubicado en la sede de la OEA, Washington, Estados Unidos. (DCA4, S502-6)  [oai_citation:5‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🚨</div>
+        <div class="cuerpo">
+          <h3><strong>INTERPOL activa alerta roja por fuga en Fraijanes II</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario y Prensa Libre</div>
+          <div class="texto">La Interpol activó alerta roja, con el fin de localizar a 16 de 20 mareros del "Barrio 18" que se fugaron de la cárcel de Fraijanes II. Edwin Monroy, vocero de la PNC, comentó que los datos personales, fotografías y características físicas de los fugitivos ya fueron incorporados al portal internacional. (ND4, PL8)  [oai_citation:6‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🏥</div>
+        <div class="cuerpo">
+          <h3><strong>Gobierno alerta riesgo de desabastecimiento médico</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">El Gobierno de Guatemala señaló que las acciones del MP contra la UNOPS y las medidas dictadas contra el ministro de Salud, Joaquín Barnoya, ponen en riesgo el abastecimiento de insumos y medicinas en la red hospitalaria. Además, calificó el embargo sobre el salario del funcionario, quien goza de antejuicio, como parte de un “terror judicial” impulsado por el MP. (DCA5)  [oai_citation:7‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🗞️</div>
+        <div class="cuerpo">
+          <h3><strong>Portadas de hoy en medios nacionales</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario, Prensa Libre, Diario de Centro de América y Soy502</div>
+          <div class="texto">DCA. El MP lleva 2 años y 3 meses de intentar deponer a Arévalo. PL. Empleadores sortean desafío para atraer a los jóvenes. ND. Rama de ceiba mata a cuatro mujeres. S502. Ciudadanos temen las consecuencias de un posible golpe de Estado.  [oai_citation:8‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🎓</div>
+        <div class="cuerpo">
+          <h3><strong>Universidades cambian decanos de Derecho</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Se informó que el 2026 será un año clave para la justicia, y la academia es uno de los pilares en el proceso de selección de candidatos para las magistraturas del TSE y Fiscal General. A dos meses de que sean convocadas las nuevas comisiones de postulación, las universidades Rafael Landívar, del Istmo, Mesoamericana y de Occidente cambiaron a sus decanos de las facultades de Ciencias Jurídicas y Sociales. (PL3)  [oai_citation:9‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🔫</div>
+        <div class="cuerpo">
+          <h3><strong>Capturan militares por robo de armamento</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Se dio a conocer que la PNC y el MP capturaron a cuatro militares implicados en el robo de 55 fusiles, más de 14 mil municiones, tolvas y lanzagranadas del Comando Aéreo del Norte, en Petén. El MINDEF detectó el hurto el 24 de octubre. Este caso se suma a otros hechos similares ocurridos desde 2007, en los que personal militar ha sido vinculado al desvío de armas hacia el narcotráfico, lo que evidencia deficiencias en los controles internos del Ejército. (PL7)  [oai_citation:10‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 2. GOBIERNO Y POLÍTICA -->
+    <section class="seccion" id="gobierno-politica">
+      <h2>Gobierno y Política</h2>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🤝</div>
+        <div class="cuerpo">
+          <h3><strong>Arévalo expone situación ante enviado de la OEA</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">El presidente Bernardo Arévalo se reunió con Sebastián Kraljevich, secretario para el Fortalecimiento de la Democracia de la OEA, para exponer los presuntos intentos de golpe de Estado impulsados por el MP y el juez Fredy Orellana, que, según el Ejecutivo, amenazan la democracia en Guatemala. Durante el encuentro, también se trataron temas que serán abordados en la próxima sesión del Consejo Permanente de la OEA. (DCA4)  [oai_citation:11‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🍼</div>
+        <div class="cuerpo">
+          <h3><strong>Vicepresidenta inaugura Banco de Leche</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">La vicepresidenta Karin Herrera inauguró el Banco de Leche en el Hospital Nacional Infantil Elisa Martínez, en Puerto Barrios, Izabal, junto a la viceministra de Hospitales del MSPAS, María del Rosario Orozco, y la subdirectora del Hospital Nacional, Sandra Ávalos. (DCA6)  [oai_citation:12‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🗣️</div>
+        <div class="cuerpo">
+          <h3><strong>Ciudadanía dividida tras mensaje presidencial</strong></h3>
+          <div class="medio">Publicado por Soy502</div>
+          <div class="texto">Tras el mensaje del presidente Bernardo Arévalo en el que denunció un intento de golpe de Estado y pidió la destitución del juez Fredy Orellana, el medio consultó a distintos ciudadanos quienes expresaron opiniones divididas. Algunos rechazaron las posibles manifestaciones, por su impacto económico, criticando la corrupción generalizada y la falta de propuestas del Gobierno. Mientras que otros llamaron al diálogo y a escuchar distintos puntos de vista para evitar más confrontación. (S502-6)  [oai_citation:13‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">✍️</div>
+        <div class="cuerpo">
+          <h3><strong>Columna: resolver mal la crisis sería peor</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">“Resolver mal esta crisis crearía otra “peorísima””. Mario Antonio Sandoval. Prensa Libre. Criticó la decisión del juez Fredy Orellana y del MP de declarar nula la elección de 2023, calificándola de ilegal y malintencionada, y subrayó que el TSE y la CC ya ratificaron los resultados. En ese sentido, consideró que la solución a la crisis está en manos del presidente Bernardo Arévalo, recomendando que realice cambios en el gabinete colocando a personas capaces y experimentadas. (PL12)  [oai_citation:14‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🧭</div>
+        <div class="cuerpo">
+          <h3><strong>Columna: ¿Gobierno abrumado o con control?</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">“Gobierno abrumado, superado o con el control”. José Alejandro Arévalo. Prensa Libre. Destacó que el Gobierno de Bernardo Arévalo enfrenta su peor crisis, poniendo en riesgo avances económicos y sociales. En ese sentido, cuestionó la credibilidad de funcionarios y ministerios clave como Gobernación, Salud y Defensa. Además, criticó al Congreso por debilitar la posición gubernamental con la imposición de la Ley 7-2025. (PL13)  [oai_citation:15‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🎯</div>
+        <div class="cuerpo">
+          <h3><strong>Columna: enfocarse en los grandes temas</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario</div>
+          <div class="texto">“¡A los grandes temas!”. Jorge Chapas. Nuestro Diario. Criticó que tanto los ataques contra el Gobierno, a través de desconocer legalmente al partido Semilla, como las armas faltantes en Petén son “temitas” que distraen a la ciudadanía de los verdaderos problemas estructurales del país, como el sistema mercantilista que genera privilegios y corrupción. (ND10)  [oai_citation:16‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🏛️</div>
+        <div class="cuerpo">
+          <h3><strong>Congreso reacciona a señalamientos de golpe</strong></h3>
+          <div class="medio">Publicado por Soy502</div>
+          <div class="texto">Ante el intento de golpe de Estado, denunciado por el presidente Bernardo Arévalo, en el Congreso se generaron diversas reacciones. El presidente del Legislativo, Nery Ramos, pidió respetar los resultados electorales, mientras que la diputada Sonia Gutiérrez, del bloque Winaq, llamó a “cerrar filas” para defender la democracia. En contraste, el diputado Boris España instó al mandatario a mantener la unidad nacional. (S502-6)  [oai_citation:17‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🗳️</div>
+        <div class="cuerpo">
+          <h3><strong>Acciones contra Semilla alcanzan al TSE</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">Se indicó que las acciones del MP contra el presidente Bernardo Arévalo y el Movimiento Semilla también han afectado al TSE y a su pleno de magistrados. Al menos 86 personas, entre estudiantes, periodistas, jueces, fiscales, defensores de derechos humanos y exfuncionarios de la CICIG, han sido criminalizadas, encarceladas o forzadas al exilio. Entre estas acciones, destacó el allanamiento del 12 de septiembre de 2023 al Centro de Operaciones Electorales del TSE, donde se abrieron las cajas con los votos de la primera vuelta. (DCA3)  [oai_citation:18‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🧑‍⚖️</div>
+        <div class="cuerpo">
+          <h3><strong>“La certeza electoral descansa en confianza”</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Entrevista. “El proceso electoral se fundamenta en la confianza ciudadana”. Anabella Morfin, exprocuradora general de la Nación. Prensa Libre. Morfin comentó que la certeza del proceso electoral y la participación ciudadana están en riesgo, por las acciones judiciales recientes vinculadas al partido Movimiento Semilla. Resaltó que, al crear una agrupación política, se le da vida a una persona jurídica, y que la responsabilidad al cometer un delito o acto es personal, y no debiera derivarse a terceras personas. Además, recordó que en el 2023 ya se discutió que todas las resoluciones en materia electoral y sanciones respecto del proceso electoral le compete exclusivamente al TSE. Sobre el blindaje al sistema electoral, enfatizó que reformas a la ley electoral, en este momento, sería absolutamente improcedente pensarlas, porque se está a las puertas de que se haga la convocatoria para integración del TSE; ya no es oportuno. (PL4)  [oai_citation:19‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 3. SEGURIDAD Y JUSTICIA -->
+    <section class="seccion" id="seguridad-justicia">
+      <h2>Seguridad y Justicia</h2>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🧪</div>
+        <div class="cuerpo">
+          <h3><strong>Hallan cuerpo; suman 12 casos similares</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario</div>
+          <div class="texto">El cuerpo de una persona, envuelto en sábanas, fue localizado en el bulevar El Naranjo, zona 4 de Mixco, según confirmaron los Bomberos Voluntarios. Con este hallazgo, suman al menos 12 las víctimas encontradas en circunstancias similares en los últimos días en el departamento de Guatemala. (ND5)  [oai_citation:20‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🏫</div>
+        <div class="cuerpo">
+          <h3><strong>Expertos urgen reforma y más recursos al SP</strong></h3>
+          <div class="medio">Publicado por Soy502</div>
+          <div class="texto">Tras la fuga de 20 reos de Fraijanes II, expertos coincidieron en la urgencia de reformar el SP y aumentar su presupuesto. La exdirectora del SP, Margarita Castillo, señaló el deterioro de la Escuela de Estudios Penitenciarios, la falta de formación y ausencia de tecnología. Por su lado, Carmen Aída Ibarra, directora de Movimiento Projusticia, criticó la ineficiencia institucional, la designación de directores sin preparación y los bajos salarios de los guardias, factores que facilitan la corrupción y perpetúan la crisis carcelaria. (S502-7)  [oai_citation:21‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">⚖️</div>
+        <div class="cuerpo">
+          <h3><strong>Denuncian a jueza por caso Melisa Palacios</strong></h3>
+          <div class="medio">Publicado por Prensa Libre y Diario de Centro de América y Soy502</div>
+          <div class="texto">El equipo legal de María Fernanda Bonilla y Luis Marroquín, acusados del asesinato de Melisa Palacios, denunció ante el MP a la jueza Carol Yesenia Berganza por presuntos delitos de prevaricato e incumplimiento de deberes. (PL8, DCA9, S502-3)  [oai_citation:22‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">📂</div>
+        <div class="cuerpo">
+          <h3><strong>Ligan a proceso a exjefa del Archivo del TSE</strong></h3>
+          <div class="medio">Publicado por Prensa Libre y Soy502</div>
+          <div class="texto">El Juzgado Décimo de Primera Instancia Penal resolvió ligar a proceso penal a Angelita Carolina Martínez Rodas, exjefa de la Unidad del Archivo General del TSE, por abuso de autoridad en el caso relacionado con la integración del partido en formación Alianza por la Justicia. (PL8, S502-2)  [oai_citation:23‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">👮</div>
+        <div class="cuerpo">
+          <h3><strong>Primera audiencia a subdirector de Fraijanes II</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario y Soy502</div>
+          <div class="texto">Víctor Alveño, subdirector de la cárcel de Fraijanes II, acusado de los delitos de incumplimiento de deberes y cooperación para la evasión ante la fuga de 20 mareros del "Barrio 18", fue trasladado hacia el Juzgado Tercero de Instancia Penal, en donde se desarrolló la audiencia de primera declaración en su contra. (ND4, S502-3)  [oai_citation:24‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🚗</div>
+        <div class="cuerpo">
+          <h3><strong>Ligada a proceso por atropellar a agente PMT</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario y Soy502</div>
+          <div class="texto">Una mujer de 33 años fue ligada a proceso por el delito de atentado contra una agente de la Policía Municipal de Tránsito, al atropellarla y arrastrarla por varios metros cuando al parecer, la uniformada iba a sancionarla por detenerse sobre el paso de cebra. (ND7, S502-2)  [oai_citation:25‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🏛️</div>
+        <div class="cuerpo">
+          <h3><strong>Vías para destituir a juez Fredy Orellana</strong></h3>
+          <div class="medio">Publicado por Soy502</div>
+          <div class="texto">Luego de que el presidente Bernardo Arévalo pidió en cadena nacional la destitución del juez Fredy Orellana y exhortó a la CC a garantizar el amparo que protegió los resultados electorales de 2023, abogados consultados señalaron que su destitución no sería inmediata y que existen tres posibles vías: una denuncia penal con proceso de antejuicio, un procedimiento disciplinario ante la Junta de Disciplina Judicial o una orden directa de la CC por desobediencia. Expertos como Fernando Linares y Diego Sagastume calificaron el llamado de Arévalo como una interferencia entre poderes, mientras Moisés Galindo lo consideró un pronunciamiento político. (S502-4)  [oai_citation:26‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">📜</div>
+        <div class="cuerpo">
+          <h3><strong>DCA: editorial denuncia intentos golpistas</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">Editorial. “Dos años, tres meses y 16 días de intentos golpistas y fracasos jurídicos”. Diario de Centro América. Denunció un intento de golpe de Estado mediante la “nulidad absoluta” del Movimiento Semilla, atribuyendo la acción a la fiscal general, Consuelo Porras, y al juez Fredy Orellana. En ese sentido, criticó las múltiples arremetidas judiciales contra el presidente Bernardo Arévalo, la primera dama y diversas instituciones, incluido el TSE, que han socavado la democracia y debilitado el Estado de derecho. Además, subrayó la importancia del respaldo nacional e internacional al mandatario y a la vicepresidenta Karin Herrera. (DCA10)  [oai_citation:27‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">⚖️</div>
+        <div class="cuerpo">
+          <h3><strong>MP mantiene acciones contra Arévalo y Semilla</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">Se informó que, desde el 12 de julio de 2023, el MP ha mantenido acciones legales contra el presidente Bernardo Arévalo y el Movimiento Semilla, incluyendo el caso “Corrupción Semilla”, con el que se cuestionaron irregularidades en la constitución del partido y en la recolección de firmas. Analistas señalan que estas medidas buscan debilitar al Gobierno y afectar la transición de autoridades prevista para 2026. (DCA2y3)  [oai_citation:28‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 4. ECONOMÍA -->
+    <section class="seccion" id="economia">
+      <h2>Economía</h2>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">💼</div>
+        <div class="cuerpo">
+          <h3><strong>Brecha de habilidades y retención de jóvenes</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Un estudio de GAN Guatemala y Guatemala No Se Detiene reveló que sectores como la tercerización de servicios de tecnología y la construcción ofrecen salarios promedio de Q14 mil 300 y Q12 mil 600 mensuales, respectivamente, pero enfrentan dificultades para cubrir puestos especializados. El informe señaló una brecha entre la formación universitaria y las habilidades que demanda el mercado, además de que el 72 por ciento de las empresas considera más difícil retener al talento joven que atraerlo. (PL10)  [oai_citation:29‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">💸</div>
+        <div class="cuerpo">
+          <h3><strong>Remesas superan US$101 mil millones</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Entre 2019 y octubre de 2025, Guatemala recibió más de US$101 mil millones en remesas familiares, superando por primera vez esa cifra en un ciclo de seis años. Expertos atribuyen el crecimiento sostenido al impacto de la pandemia, las condiciones del mercado laboral en Estados Unidos, el relevo generacional migratorio, cambios en la política migratoria estadounidense y la expectativa de un posible impuesto a las remesas, factores que consolidaron la dependencia económica de estos ingresos. (PL11)  [oai_citation:30‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🏦</div>
+        <div class="cuerpo">
+          <h3><strong>Reservas internacionales alcanzan récord</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">De acuerdo con el Banco de Guatemala, las reservas monetarias internacionales de Guatemala crecieron 12.84 por ciento, al pasar de US$27 mil 145.4 millones en junio a US$30 mil 630.9 millones en septiembre. Para octubre ya alcanzaban US$31 mil 388 millones, superando la proyección para fin de 2025 y equivalentes a más de 11 meses de importaciones. El incremento se atribuye, en parte, a la compra de seis toneladas de oro en el mercado internacional. (DCA12)  [oai_citation:31‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🏅</div>
+        <div class="cuerpo">
+          <h3><strong>Entregan Premio Nacional de Calidad</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">El MINECO entregó por primera vez el Premio Nacional de Calidad durante un acto en el Palacio Nacional de la Cultura, con el objetivo de reconocer a empresas guatemaltecas comprometidas con la excelencia e innovación. (DCA12)  [oai_citation:32‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🛣️</div>
+        <div class="cuerpo">
+          <h3><strong>MICIVI continúa obras en km 24 CA-ES</strong></h3>
+          <div class="medio">Publicado por Soy502</div>
+          <div class="texto">El MICIVI continúa las obras de mitigación en el kilómetro 24 de la Carretera a El Salvador tras el derrumbe del 6 de octubre. Covial realiza estudios técnicos, iniciando con un levantamiento topográfico con dron y sensores LIDAR para crear un mapa 3D del terreno. Luego se harán análisis geofísicos para reforzar la zona. (S502-2)  [oai_citation:33‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🧭</div>
+        <div class="cuerpo">
+          <h3><strong>142 proyectos viales en ejecución</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">El ministro de Comunicaciones, Miguel Ángel Díaz, informó que, al 24 de octubre estaban en ejecución 142 proyectos de mejoramiento de carreteras a cargo de la Unidad Ejecutora de Covial y la Dirección General de Caminos. Explicó que, una vez finalice la temporada de lluvias, se enfocarán en los tramos más afectados. (DCA7)  [oai_citation:34‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🌉</div>
+        <div class="cuerpo">
+          <h3><strong>Habilitan el puente Tubac II en Villa Nueva</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">El MICIVI, a través de Covial, inauguró el puente Tubac II en Villa Nueva, una obra de 34 metros de largo y ocho de ancho que beneficiará a más de un millón de personas que se movilizan entre ese municipio y San Miguel Petapa. (DCA7)  [oai_citation:35‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">⚓</div>
+        <div class="cuerpo">
+          <h3><strong>Puertos requieren modernización urgente</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario</div>
+          <div class="texto">Columna. “El Congreso puede modernizar los puertos”. Fanny Estrada. Nuestro Diario. Destacó que los puertos enfrentan una crisis provocada por la falta de inversión, modernización y competencia, agravada por la corrupción y el control de sindicatos que actúan como dueños de las instalaciones. Criticó que los trabajadores antepongan sus intereses personales al desarrollo nacional y obstaculicen la eficiencia portuaria. Concluyó que la única salida depende del Congreso, que debe aprobar con urgencia las leyes de modernización portuaria. (ND10)  [oai_citation:36‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 5. SOCIAL Y SERVICIOS PÚBLICOS -->
+    <section class="seccion" id="social-servicios">
+      <h2>Social y Servicios Públicos</h2>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🚌</div>
+        <div class="cuerpo">
+          <h3><strong>57 heridos en accidente en la Interamericana</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario y Prensa Libre</div>
+          <div class="texto">Cincuenta y siete personas resultaron heridas en un accidente en el kilómetro 36 de la Ruta Interamericana, luego de que un bus de Transportes Franciscana perdiera el control y cruzara la mediana central. Pasajeros de la unidad, que había salido de Tecpán rumbo a la capital, relataron que esta iba a alta velocidad cuando ocurrió el accidente. Ante ello, la DGT, mediante un comunicado, informó que el bus cuenta con seguro vigente, así como los permisos respectivos para circular y tarjeta vigente. (ND3, PL8)  [oai_citation:37‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🏥</div>
+        <div class="cuerpo">
+          <h3><strong>Entregan módulos de salud en Moyuta</strong></h3>
+          <div class="medio">Publicado por Diario de Centro de América</div>
+          <div class="texto">La Unidad de Construcción de Edificios del Estado, del MICIVI, entregó dos módulos prefabricados al Centro de Convergencia El Rosario, ubicado en Pedro de Alvarado, Moyuta, Jutiapa, con el objetivo de mejorar la atención médica y acercar los servicios a los pacientes que padecen enfermedades renales. (DCA7)  [oai_citation:38‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">📰</div>
+        <div class="cuerpo">
+          <h3><strong>Editorial: crece la siniestralidad vial</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Editorial. “Se acelera siniestralidad vial”. Prensa Libre. Señaló la creciente siniestralidad vial, destacando accidentes recientes que dejaron decenas de heridos y muertos. Criticó la falta de supervisión de las autoridades, como la Procuraduría de Defensa de los Usuarios del Transporte y la PNC, y cuestionó las reformas al Reglamento de Transporte que delegan la revisión mecánica a las empresas. Además, señaló la necesidad urgente de estudios multidisciplinarios, bases de datos modernas y tecnología para supervisar a conductores y vehículos, con el fin de prevenir accidentes y proteger vidas. (PL2)  [oai_citation:39‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🏘️</div>
+        <div class="cuerpo">
+          <h3><strong>Buscan al dueño del terreno colapsado</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Tres semanas después del deslizamiento en el kilómetro 24.5 de la carretera a El Salvador, la Municipalidad de Fraijanes informó que no ha logrado localizar a César Erick Rolando Winter Chen, dueño del terreno donde ocurrió el colapso. El hecho, registrado el 6 de octubre, cubrió los cuatro carriles de la vía y requirió apoyo de la CONRED, el Ejército y maquinaria pesada. (PL7)  [oai_citation:40‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🌾</div>
+        <div class="cuerpo">
+          <h3><strong>Día Regional de la Sanidad Agropecuaria</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Campo Pagado. “Día Regional de la Sanidad Agropecuaria”. MAGA y Organismos Internacionales Regional de Sanidad Agropecuaria. Prensa Libre. En el Día Regional de la Sanidad Agropecuaria reconocieron la labor de veterinarios, agrónomos, laboratoristas y especialistas fitozoosanitarios, resaltando su papel en la protección de la salud de plantas y animales, así como su aporte al bienestar y futuro del sector agropecuario. (PL5)  [oai_citation:41‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 6. INTERNACIONAL -->
+    <section class="seccion" id="internacional">
+      <h2>Internacional</h2>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">✈️</div>
+        <div class="cuerpo">
+          <h3><strong>Paro parcial en EE. UU. afecta aeropuertos</strong></h3>
+          <div class="medio">Publicado por Prensa Libre</div>
+          <div class="texto">Se indicó que el cierre parcial del Gobierno Federal en Estados Unidos ha generado preocupación por posibles retrasos y cancelaciones de vuelos, ya que los controladores aéreos no han recibido su salario por falta de fondos. Aunque son empleados esenciales y continúan trabajando en extensos turnos, la situación agrava la incertidumbre en el sector aéreo, según la Asociación Nacional de Controladores de Tráfico Aéreo. (PL21)  [oai_citation:42‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota right">
+        <div class="emoji" aria-hidden="true">🕊️</div>
+        <div class="cuerpo">
+          <h3><strong>Israel ordena atacar Gaza tras ruptura de tregua</strong></h3>
+          <div class="medio">Publicado por Nuestro Diario</div>
+          <div class="texto">El primer ministro israelí, Benjamín Netanyahu, ordenó a sus tropas atacar de inmediato la Franja de Gaza luego de acusar a Hamás de violar el acuerdo de cese el fuego patrocinado por Estados Unidos. (ND12)  [oai_citation:43‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+
+      <article class="nota left">
+        <div class="emoji" aria-hidden="true">🛃</div>
+        <div class="cuerpo">
+          <h3><strong>EE. UU. y Japón acuerdan reducir aranceles</strong></h3>
+          <div class="medio">Publicado por Soy502</div>
+          <div class="texto">Sanae Takaichi, la nueva primera ministra de Japón, y el presidente de EE. UU., Donald Trump, prometieron ayer, 28 de octubre una "nueva edad de oro" en sus relaciones bilaterales y se selló con un acuerdo para "garantizar el suministro de minerales críticos y tierras raras, indispensables para la industria tecnológica o de defensa. Así con la reducción de un 15 por ciento los aranceles sobre los automóviles japoneses. (S502-8)  [oai_citation:44‡29-10-2025 Síntesis Matutina de Medios de Comunica_251029_070756.pdf](sediment://file_00000000211c622fb07ae37dca6094d2)</div>
+        </div>
+      </article>
+    </section>
+
+  </div>
+</body>
+</html>
